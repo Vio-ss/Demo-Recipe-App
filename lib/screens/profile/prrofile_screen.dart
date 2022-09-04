@@ -37,4 +37,7 @@ class ProfileScreen extends StatelessWidget {
       ],
     );
   }
+
+  // ignore: non_constant_identifier_names
+  FlatButton({Null Function() onPressed, Text child}) {}
 }
